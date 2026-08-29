@@ -1,0 +1,19 @@
+name: End-to-End Cypress Tests
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Cypress Run
+        uses: cypress-io/github-action@v6
+        with:
+          browser: chrome
