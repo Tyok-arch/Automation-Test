@@ -1,6 +1,6 @@
-# QA Automation Template (Cypress & AI Agent Workflow)
+# Automation (Cypress & AI Agent Workflow)
 
-Template otomasi pengujian End-to-End (E2E) menggunakan **Cypress** yang sudah terintegrasi dengan **GitHub Actions CI/CD Pipeline**.
+Otomasi pengujian End-to-End (E2E) menggunakan **Cypress** yang sudah terintegrasi dengan **GitHub Actions CI/CD Pipeline**.
 
 ## 🛠️ Alur Kerja (Workflow)
 1. Analisis PRD / Spesifikasi UI oleh AI Agent.
